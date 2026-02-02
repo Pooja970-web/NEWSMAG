@@ -1,16 +1,59 @@
-# React + Vite
+A frontend project showcasing API integration, reusable components, and clean UI design using React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📰 NewsMag – React News Application
 
-Currently, two official plugins are available:
+NewsMag is a modern, responsive news web application built using **React**.  
+It fetches real-time news using **NewsAPI** and allows users to browse news across multiple categories with a clean and professional UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📌 Category-based news (Technology, Business, Health, Science, Sports, Entertainment)
+- 🇮🇳 India-focused news using optimized keyword-based search
+- ⚡ Real-time news fetched from NewsAPI
+- 🧩 Reusable React components
+- 🖼️ Fallback image & description handling
+- 📱 Fully responsive design
+- 🎨 Clean, professional UI with custom colors
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript  
+- **Styling:** Bootstrap, CSS  
+- **API:** NewsAPI  
+- **Build Tool:** Vite  
+
+---
+
+## 📂 Project Structure
+
+NEWSMAG/
+│
+├── src/
+│ ├── assets/
+│ │ └── news.jpg
+│ │
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── NewsBoard.jsx
+│ │ └── NewsItem.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ ├── App.css
+│ └── index.css
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+## 🔑 Environment Variables 
+Create a .env file in the root directory and add your NewsAPI key: 
+
+VITE_API_KEY=your_api_key_here
+
+Note: The .env file is excluded from version control for security reasons.
