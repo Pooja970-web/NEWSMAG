@@ -57,3 +57,8 @@ Create a .env file in the root directory and add your NewsAPI key:
 VITE_API_KEY=your_api_key_here
 
 Note: The .env file is excluded from version control for security reasons.
+
+##📸Screenshots
+
+![Home Page](screenshots/homepage.png
+)
