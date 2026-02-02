@@ -1,0 +1,26 @@
+/* Navbar background */
+.navbar-custom {
+  background-color: #0f172a; /* dark navy / charcoal */
+}
+
+/* Brand text */
+.brand-text {
+  color: #f9fafb !important;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Navbar menu items */
+.nav-link-custom {
+  color: #e5e7eb !important;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link-custom:hover {
+  color: #2563eb !important; /* professional blue */
+}
