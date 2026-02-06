@@ -1,9 +1,24 @@
-/* Navbar background */
-.navbar-custom {
-  background-color: #0f172a; /* dark navy / charcoal */
+/* =========================
+   Global Styles
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Brand text */
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   Navbar Styles
+========================= */
+.navbar-custom {
+  background-color: #0f172a; /* dark navy */
+}
+
 .brand-text {
   color: #f9fafb !important;
   font-size: 1.6rem;
@@ -11,7 +26,6 @@
   text-decoration: none;
 }
 
-/* Navbar menu items */
 .nav-link-custom {
   color: #e5e7eb !important;
   cursor: pointer;
@@ -20,12 +34,62 @@
   transition: color 0.3s ease;
 }
 
-/* Hover effect */
 .nav-link-custom:hover {
   color: #2563eb !important; /* professional blue */
 }
 
-/* Page background */
-body {
-  background-color: #f5f5f5;
+/* =========================
+   News Card Styles
+========================= */
+.news-card {
+  width: 20rem;
+  height: 420px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.news-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.news-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card Title */
+.news-card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  min-height: 3rem;
+  overflow: hidden;
+}
+
+/* Card Description */
+.news-card .card-text {
+  font-size: 0.9rem;
+  color: #4b5563;
+  min-height: 4.5rem;
+  overflow: hidden;
+}
+
+/* Read More Button */
+.news-card .btn {
+  margin-top: auto;
+}
+
+/* =========================
+   Responsive Tweaks
+========================= */
+@media (max-width: 768px) {
+  .news-card {
+    width: 100%;
+  }
 }
