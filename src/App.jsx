@@ -1,17 +1,17 @@
-import Navbar from "./Components/Navbar"
-import NewsBoard from "./Components/NewsBoard"
 import { useState } from "react";
+import Navbar from "./Components/Navbar";
+import NewsBoard from "./Components/NewsBoard";
 import "./App.css";
 
-
 const App = () => {
-  const[category,setCategory]=useState("general")
-  return (
-    <div>
-      <Navbar setCategory={setCategory}/>
-   <NewsBoard category={category}/>
-    </div>
-  )
-}
+  const [category, setCategory] = useState("top");
 
-export default App
+  return (
+    <>
+      <Navbar setCategory={setCategory} />
+      <NewsBoard category={category} />
+    </>
+  );
+};
+
+export default App;
