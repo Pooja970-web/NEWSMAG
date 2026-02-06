@@ -1,5 +1,8 @@
 # 📰 NewsMag – World News Web App
 
+ ![NewsMag Preview](assets/preview.png)
+
+
 NewsMag is a React-based world news web application that fetches **real-time news** using the **NewsData.io API** and displays it category-wise with a clean, responsive, and user-friendly interface.
 
 ---
