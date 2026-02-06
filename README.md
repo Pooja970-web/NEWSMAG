@@ -1,4 +1,5 @@
 A frontend project showcasing API integration, reusable components, and clean UI design using React.
+![NewsMag Preview](screenshots/preview.png)
 
 # 📰 NewsMag – React News Application
 
